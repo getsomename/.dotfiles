@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo date > "last_run.txt"
 # copy Vs-Code files
 cp  $HOME/Library/Application\ Support/Code/User/{keybindings.json,settings.json} ./code/
 
