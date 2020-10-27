@@ -1,0 +1,280 @@
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "on",
+    "window.zoomLevel": 0,
+    "window.restoreWindows": "none",
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestionsDelay": 10,
+    // "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.highlightActiveIndentGuide": false,
+    "debug.internalConsoleOptions": "neverOpen",
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    // "workbench.colorCustomizations": {
+    //     // "editorError.border": "#ff000049"
+    //     "editorInfo.foreground": "#ff000000",
+    //     "editorError.foreground": "#ff000000"
+    // },
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.showTabs": false,
+    "workbench.activityBar.visible": false,
+    "dart.flutterSdkPath": "/Users/getsomename/development/flutter",
+    "dart.promptToGetPackages": true,
+    "dart.runPubGetOnPubspecChanges": false,
+    "dart.updateImportsOnRename": true,
+    "git.autofetch": true,
+    "zenMode.centerLayout": false,
+    "zenMode.hideStatusBar": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": true,
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.iconTheme": "awesome-icons",
+    "git.enableSmartCommit": true,
+    "dance.normalMode.lineNumbers": "off",
+    "clojureVSCode.autoStartNRepl": false,
+    // "vim.useCtrlKeys": false,
+    "vim.statusBarColorControl": false,
+    "vim.easymotion": false,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "<leader>",
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e",
+                "t"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.runSelectedText",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e",
+                "t"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.terminal.runSelectedText",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "docsView.documentation.focus",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "p"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.openSettingsJson",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "a"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.quickFix",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "f"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "editor.action.formatDocument",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "k"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "b"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "e"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    // "command": "workbench.action.terminal.runSelectedText",
+                    "command": "calva.evaluateCurrentTopLevelForm",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.openPreviousRecentlyUsedEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "K"
+            ],
+            "commands": [
+                "workbench.action.closeAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.closeOtherEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.closeOtherEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b",
+                "n"
+            ],
+            "commands": [
+                "workbench.action.openNextRecentlyUsedEditor"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.rename"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "R"
+            ],
+            "commands": [
+                "references-view.find"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "git.confirmSync": false,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "dart.showDartDeveloperLogs": false,
+    // "dart.showIgnoreQuickFixes": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    //python
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.enabled": true,
+    "svg.preview.mode": "svg",
+    "docsView.documentationView.updateMode": "sticky",
+    //golang
+    "go.lintOnSave": "off",
+    "go.formatTool": "goimports",
+}
