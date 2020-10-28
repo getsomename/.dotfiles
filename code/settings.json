@@ -277,4 +277,5 @@
     //golang
     "go.lintOnSave": "off",
     "go.formatTool": "goimports",
+    "extensions.ignoreRecommendations": true,
 }
