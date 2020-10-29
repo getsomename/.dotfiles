@@ -1,6 +1,5 @@
-source $HOME/.config/nvim/plugins.vim
-source $HOME/.config/nvim/modules/index.vim
-
+:so $HOME/.config/nvim/plugins.vim
+:so $HOME/.config/nvim/modules/index.vim
 
 colorscheme nord
 set noswapfile

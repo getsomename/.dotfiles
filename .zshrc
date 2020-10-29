@@ -6,7 +6,7 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="$PATH":"$HOME/.emacs.d/bin"
 
 alias r="ranger"
-alias vim="nvim"
+alias vim="nvim -S ~/.config/nvim/init.vim"
 # ranger
 export VISUAL=nvim;
 export EDITOR=nvim;
