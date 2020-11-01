@@ -2,8 +2,9 @@ export PATH="$PATH:~/Library/Android/sdk/tools/bin:/Users/getsomename/Library/An
 export PATH="$PATH:$HOME/development/flutter/bin"
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 export PATH="$PATH:$HOME/.npm-global/bin:$HOME/development/flutter/.pub-cache/bin:/usr/local/sbin"
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-export PATH="$PATH":"$HOME/.emacs.d/bin"
+export PATH="$PATH:$HOME/.pub-cache/bin"
+export PATH="$PATH:$HOME/development/flutter/bin/cache/dart-sdk/bin"
+export PATH="$PATH:$HOME/.emacs.d/bin"
 
 alias r="ranger"
 alias vim="nvim -S ~/.config/nvim/init.vim"

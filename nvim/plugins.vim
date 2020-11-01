@@ -15,6 +15,6 @@ Plug 'autozimu/LanguageClient-neovim', {
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'tpope/vim-repeat'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-
+Plug 'tpope/vim-fireplace'
 call plug#end()
 
