@@ -17,5 +17,7 @@ Plug 'tpope/vim-repeat'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-fireplace'
 Plug 'tpope/vim-fugitive'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
+
 
