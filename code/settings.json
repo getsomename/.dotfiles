@@ -36,7 +36,7 @@
     "workbench.editor.enablePreview": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "explorer.openEditors.visible": 0,
-    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "awesome-icons",
     "git.enableSmartCommit": true,
     "dance.normalMode.lineNumbers": "off",
