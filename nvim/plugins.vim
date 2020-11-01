@@ -16,5 +16,6 @@ Plug 'dart-lang/dart-vim-plugin'
 Plug 'tpope/vim-repeat'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'tpope/vim-fireplace'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
