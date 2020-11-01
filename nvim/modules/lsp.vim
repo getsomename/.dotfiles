@@ -15,8 +15,8 @@ let g:LanguageClient_selectionUI = "location-list"
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gr  :call LanguageClient#textDocument_rename()<CR>
-" nmap <leader>ca <Plug>(lcn-menu)
-nnoremap <silent> ca :call  LanguageClient_textDocument_codeAction()<CR>
+nmap <leader>cA <Plug>(lcn-menu)
+nnoremap <leader> cf <Plug>(lcn-format) 
     
 
 
