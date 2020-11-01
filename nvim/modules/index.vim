@@ -5,3 +5,4 @@ source $HOME/.config/nvim/modules/ident.vim
 source $HOME/.config/nvim/modules/flutter.vim
 source $HOME/.config/nvim/modules/statusbar.vim
 source $HOME/.config/nvim/modules/nerdtree.vim
+source $HOME/.config/nvim/modules/clojure.vim
