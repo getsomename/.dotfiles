@@ -1,16 +1,14 @@
 #!/bin/bash
-# copy Vs-Code files
 cp  $HOME/Library/Application\ Support/Code/User/{keybindings.json,settings.json} ./code/
-
-# copy snippets folder
 cp -r $HOME/Library/Application\ Support/Code/User/snippets ./code/
 
 # copy list of extensions that currently installed
 # code --list-extensions --show-versions >> ../../vscode/extensions.txt ./code/
 
-
 cp  $HOME/.zshrc ./.zshrc
 rsync -r --exclude 'plugged' $HOME/.config/nvim/ ./nvim/
+
+cp  $HOME/.tmux.conf ./
 
 
 # Check git status
@@ -24,6 +22,6 @@ fi
 
 
 # push to Github
-git add -u;
+git add .;
 git commit -m "New backup `date +'%Y-%m-%d %H:%M:%S'`";
 git push origin master
