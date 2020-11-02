@@ -5,7 +5,6 @@ colorscheme nord
 set noswapfile
 " set clipboard=unnamed
 let mapleader = "\<Space>" 
-set backspace=indent,eol,start
 nmap <leader>ot :term<cr>
 set completeopt-=preview
 let g:fzf_history_dir = '~/.fzf-history'
