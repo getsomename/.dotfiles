@@ -18,6 +18,30 @@ nnoremap <silent>gr  :call LanguageClient#textDocument_rename()<CR>
 nmap <leader>cA <Plug>(lcn-menu)
 nmap <leader>ca :call LanguageClient#textDocument_codeAction()<cr>
 nnoremap <leader>cf :call LanguageClient_textDocument_formatting()<cr>
-    
 
-
+let g:LanguageClient_diagnosticsDisplay = {
+    \     1: {
+    \         "name": "Error",
+    \         "texthl": "",
+    \         "signText": "✖",
+    \         "signTexthl": "ErrorMsg",
+    \     },
+    \     2: {
+    \         "name": "Warning",
+    \         "texthl": "",
+    \         "signText": "⚠",
+    \         "signTexthl": "ALEWarningSign",
+    \     },
+    \     3: {
+    \         "name": "Information",
+    \         "texthl": "",
+    \         "signText": "ℹ",
+    \         "signTexthl": "ALEInfoSign",
+    \     },
+    \     4: {
+    \         "name": "Hint",
+    \         "texthl": "",
+    \         "signText": "➤",
+    \         "signTexthl": "ALEInfoSign",
+    \     },
+    \ }
