@@ -12,11 +12,12 @@ let g:LanguageClient_hideVirtualTextsOnInsert = 1
 let g:LanguageClient_useVirtualText = "No"   
 set formatexpr=LanguageClient#textDocument_rangeFormatting_sync()
 let g:LanguageClient_selectionUI = "location-list"
-nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
-nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-nnoremap <silent> gr  :call LanguageClient#textDocument_rename()<CR>
+nnoremap <silent>gd :call LanguageClient#textDocument_definition()<CR>
+nnoremap <silent>K :call LanguageClient#textDocument_hover()<CR>
+nnoremap <silent>gr  :call LanguageClient#textDocument_rename()<CR>
 nmap <leader>cA <Plug>(lcn-menu)
-nnoremap <leader> cf <Plug>(lcn-format) 
+nmap <leader>ca :call LanguageClient#textDocument_codeAction()<cr>
+nnoremap <leader>cf :call LanguageClient_textDocument_formatting()<cr>
     
 
 
