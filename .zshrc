@@ -18,4 +18,4 @@ export GOPATH=$HOME/Go
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:~/Go/bin
     
-source $HOME/psw.sh
+source $HOME/.psw.sh
