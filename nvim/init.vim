@@ -3,6 +3,8 @@ source $HOME/.config/nvim/modules/index.vim
 " imrove default autocomplete
 set completeopt=longest,menuone
 
+:imap <Esc> <Esc><Right>
+
 " colorscheme nord
 colorscheme tatami
 set noswapfile
