@@ -1,7 +1,10 @@
-:so $HOME/.config/nvim/plugins.vim
-:so $HOME/.config/nvim/modules/index.vim
+source $HOME/.config/nvim/plugins.vim
+source $HOME/.config/nvim/modules/index.vim
+" imrove default autocomplete
+set completeopt=longest,menuone
 
-colorscheme nord
+" colorscheme nord
+colorscheme tatami
 set noswapfile
 " set clipboard=unnamed
 let mapleader = "\<Space>" 

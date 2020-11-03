@@ -6,3 +6,4 @@ source $HOME/.config/nvim/modules/flutter.vim
 source $HOME/.config/nvim/modules/statusbar.vim
 source $HOME/.config/nvim/modules/nerdtree.vim
 source $HOME/.config/nvim/modules/clojure.vim
+source $HOME/.config/nvim/modules/clipboard.vim
