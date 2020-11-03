@@ -53,7 +53,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+                    "command": "workbench.action.quickOpen",
                     "args": []
                 }
             ]
