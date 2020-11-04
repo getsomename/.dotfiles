@@ -21,6 +21,8 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'jremmen/vim-ripgrep'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
+Plug 'kdheepak/lazygit.nvim'
+
 Plug 'guns/vim-sexp'
 call plug#end()
 

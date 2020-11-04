@@ -8,6 +8,8 @@ set completeopt=longest,menuone
 " colorscheme nord
 colorscheme tatami
 set noswapfile
+" horizotal scroll for logn lines
+set wrap!
 " set clipboard=unnamed
 let mapleader = "\<Space>" 
 let maplocalleader = "," 
