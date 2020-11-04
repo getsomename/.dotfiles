@@ -10,6 +10,7 @@ colorscheme tatami
 set noswapfile
 " set clipboard=unnamed
 let mapleader = "\<Space>" 
+let maplocalleader = "," 
 nmap <leader>ot :term<cr>
 set completeopt-=preview
 let g:fzf_history_dir = '~/.fzf-history'
