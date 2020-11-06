@@ -3,6 +3,6 @@ call deoplete#custom#option({
    \ })                                                       
 
 let g:deoplete#enable_at_startup = 1
-" inoremap <expr> <C-e>  deoplete#complete()
+inoremap <expr><C-\>  deoplete#complete()
 " deoplete tab-complete
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
