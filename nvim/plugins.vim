@@ -23,7 +23,9 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'francoiscabrol/ranger.vim'
 Plug 'kdheepak/lazygit.nvim'
 
-Plug 'guns/vim-sexp'
+" Plug 'guns/vim-sexp'
+Plug 'vim-scripts/paredit.vim'
 call plug#end()
+
 
 

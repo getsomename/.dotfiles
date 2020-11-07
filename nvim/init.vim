@@ -1,5 +1,6 @@
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/modules/index.vim
+let g:paredit_leader = ","
 " imrove default autocomplete
 set completeopt=longest,menuone
 
