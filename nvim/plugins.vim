@@ -15,7 +15,8 @@ Plug 'autozimu/LanguageClient-neovim', {
 Plug 'dart-lang/dart-vim-plugin'
 Plug 'tpope/vim-repeat'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'tpope/vim-fireplace'
+" Plug 'tpope/vim-fireplace'
+Plug 'Olical/conjure', {'tag': 'v4.8.0'}
 Plug 'tpope/vim-fugitive'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'jremmen/vim-ripgrep'
