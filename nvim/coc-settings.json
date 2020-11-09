@@ -1,0 +1,8 @@
+{
+ "coc.preferences.hoverTarget": "preview",
+ "coc.preferences.enableFloatHighlight": false,
+ "suggest.floatEnable": false,
+ "diagnostic.errorSign": "✖",
+ "diagnostic.infoSign": "ℹ",
+ "diagnostic.warningSign":"⚠"
+}
