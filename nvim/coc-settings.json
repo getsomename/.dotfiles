@@ -1,4 +1,6 @@
 {
+ "diagnostic.enableHighlightLineNumbe": false,
+ "coc.preferences.colorSupport": false,
  "coc.preferences.hoverTarget": "preview",
  "coc.preferences.enableFloatHighlight": false,
  "suggest.floatEnable": false,

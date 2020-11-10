@@ -6,8 +6,7 @@ set completeopt=longest,menuone
 
 :imap <Esc> <Esc><Right>
 
-" colorscheme nord
-colorscheme moonshine_minimal
+colorscheme codedark 
 set noswapfile
 " horizotal scroll for logn lines
 set wrap!
