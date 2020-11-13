@@ -1,5 +1,5 @@
-nmap <leader>0 :NERDTreeToggle<cr>
-nmap <leader>op :NERDTreeFind<cr>
+nmap <leader>op :NERDTreeToggle<cr>
+nmap <leader>oP :NERDTreeFind<cr>
 let g:NERDTreeWinSize=60
 let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
