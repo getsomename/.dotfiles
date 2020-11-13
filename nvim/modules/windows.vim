@@ -11,3 +11,4 @@ nmap <leader>bb :Buffers<cr>
 nmap <leader>bn :bnext<cr>
 nmap <leader>bp :bprevious<cr>
 nmap <leader>bk :bd <CR>
+nmap <leader>bK :bufdo bd<CR>
