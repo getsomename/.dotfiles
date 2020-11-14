@@ -1,6 +1,6 @@
 nmap <leader>op :NERDTreeToggle<cr>
 nmap <leader>oP :NERDTreeFind<cr>
-let g:NERDTreeWinSize=60
+let g:NERDTreeWinSize=30
 let NERDTreeQuitOnOpen=1
 let NERDTreeAutoDeleteBuffer=1
 let NERDTreeMinimalUI=1
