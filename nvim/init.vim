@@ -4,6 +4,8 @@ let g:paredit_leader = ","
 " imrove default autocomplete
 set completeopt=longest,menuone
 
+nmap <leader>fs :w<cr>
+
 :imap <Esc> <Esc><Right>
 
 colorscheme codedark 
