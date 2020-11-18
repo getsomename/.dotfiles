@@ -2,7 +2,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.lineNumbers": "on",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "window.restoreWindows": "none",
     "editor.suggestOnTriggerCharacters": false,
     "editor.quickSuggestionsDelay": 10,
@@ -163,7 +163,7 @@
             "after": [],
             "commands": [
                 {
-                    "command": "workbench.action.quickOpenLeastRecentlyUsedEditorInGroup",
+                    "command": "workbench.action.showAllEditors",
                     "args": []
                 }
             ]
