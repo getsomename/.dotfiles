@@ -6,12 +6,16 @@ export PATH="$PATH:$HOME/.pub-cache/bin"
 export PATH="$PATH:$HOME/development/flutter/bin/cache/dart-sdk/bin"
 export PATH="$PATH:$HOME/.emacs.d/bin"
 
+export ANDROID_SDK_ROOT="/Users/getsomename/Library/Android/sdk"
+export ANDROID_HOME="/Users/getsomename/Library/Android/sdk" 
+export ANDROID_AVD_HOME="/Users/getsomename/.android/avd"
+
 alias r="ranger"
 alias vim="nvim -S ~/.config/nvim/init.vim"
 # ranger
 export VISUAL=nvim;
 export EDITOR=nvim;
-
+ 
 # GOLANG
 # export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 export GOPATH=$HOME/Go
