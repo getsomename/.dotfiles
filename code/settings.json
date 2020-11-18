@@ -278,4 +278,5 @@
     "go.lintOnSave": "off",
     "go.formatTool": "goimports",
     "extensions.ignoreRecommendations": true,
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
 }
