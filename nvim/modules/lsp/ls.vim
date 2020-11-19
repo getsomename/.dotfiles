@@ -1,5 +1,6 @@
 let g:LanguageClient_serverCommands = {
     \ 'dart': [ 'dart', '/Users/getsomename/development/flutter/bin/cache/dart-sdk/bin/snapshots/analysis_server.dart.snapshot', '--lsp'],
+    \ 'go': ['gopls']
     \ }
 
 let g:LanguageClient_autoStart = 1
@@ -18,6 +19,9 @@ nnoremap <silent>gr  :call LanguageClient#textDocument_rename()<CR>
 nmap <leader>cA <Plug>(lcn-menu)
 nmap <leader>ca :call LanguageClient#textDocument_codeAction()<cr>
 nnoremap <leader>cf :call LanguageClient_textDocument_formatting()<cr>
+
+" Run gofmt on save
+autocmd BufWritePre *.go :call LanguageClient#textDocument_formatting_sync()
 
 let g:LanguageClient_diagnosticsDisplay = {
     \     1: {
